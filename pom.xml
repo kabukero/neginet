@@ -60,7 +60,7 @@
               <goal>repackage</goal>
             </goals>
             <configuration>
-              <mainClass>com.neginet.app.App</mainClass>
+              <mainClass>com.neginet.app.Program</mainClass>
             </configuration>
           </execution>
         </executions>
