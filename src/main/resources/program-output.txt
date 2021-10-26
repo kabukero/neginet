@@ -1,0 +1,57 @@
+c:\dev-tools\graalvm-ce-java8-21.1.0\bin\java.exe -javaagent:C:\dev-tools\ideaIC-2021.1.3.win\lib\idea_rt.jar=60151:C:\dev-tools\ideaIC-2021.1.3.win\bin -Dfile.encoding=UTF-8 -classpath C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\charsets.jar;C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\ext\access-bridge-64.jar;C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\ext\cldrdata.jar;C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\ext\dnsns.jar;C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\ext\jaccess.jar;C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\ext\localedata.jar;C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\ext\nashorn.jar;C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\ext\sunec.jar;C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\ext\sunjce_provider.jar;C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\ext\sunmscapi.jar;C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\ext\sunpkcs11.jar;C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\ext\zipfs.jar;C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\jce.jar;C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\jfr.jar;C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\jsse.jar;C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\jvmci-services.jar;C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\management-agent.jar;C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\resources.jar;C:\dev-tools\graalvm-ce-java8-21.1.0\jre\lib\rt.jar;D:\dev\java2\app\target\classes com.neginet.app.Program
+
+1. The names cardinality for full, last, and first names:
+Full names: 49140
+Last names: 474
+First names: 3006
+
+2. The most common last names are:
+Reilly: 185
+Barton: 143
+Lang: 136
+Ortiz: 135
+Hilll: 134
+Hills: 130
+Terry: 129
+Johns: 128
+Romaguera: 128
+Becker: 128
+
+3. The most common first names are:
+Tara: 34
+Andreanne: 32
+Keon: 31
+Stephania: 31
+Kayley: 30
+Ulices: 30
+Kaycee: 30
+Manley: 30
+Summer: 30
+Cecil: 29
+
+4. List of Modified Names
+Murazik, Jackson
+Orn, Timothy
+Raynor, Breanne
+Swift, Era
+Zieme, Greyson
+Greenfelder, Ulises
+Jerde, Timmothy
+Upton, Halle
+Pfeffer, Kailee
+Thompson, Reyna
+Bernhard, Lisandro
+Bartoletti, George
+McDermott, Ciara
+Luettgen, Astrid
+Hamill, Jayson
+Little, Cale
+Jacobson, Dax
+Friesen, Elvie
+Schimmel, Brayan
+Effertz, Sammie
+Altenwerth, Dewitt
+Deckow, Alejandrin
+Wolff, Angelina
+Von, Mattie
+Rippin, Genoveva
