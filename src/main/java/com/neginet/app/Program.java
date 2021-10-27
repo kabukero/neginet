@@ -6,7 +6,7 @@ import java.util.Map;
 public class Program {
 
     // Set the path of the text file that contains all the data
-    public static final String pathTextFile = "D:\\dev\\java2\\app\\src\\main\\resources\\coding-test-data.txt";
+    public static final String PATH_TEXT_FILE = "D:\\dev\\java2\\app\\src\\main\\resources\\coding-test-data.txt";
 
     // Set the size of the most common first names or last names
     public static final int MOST_COMMON_ELEMENTS_SIZE = 10;
@@ -19,7 +19,7 @@ public class Program {
         Map<String, Integer> lastNames = new HashMap<>();
         Map<String, Integer> firstNames = new HashMap<>();
 
-        PeopleNameUtil.getNames(pathTextFile, fullNames, lastNames, firstNames);
+        PeopleNameUtil.getNames(PATH_TEXT_FILE, fullNames, lastNames, firstNames);
 
         Map<String, Integer> mostCommonLastNames = PeopleNameUtil.getMostCommonElements(lastNames, MOST_COMMON_ELEMENTS_SIZE);
         Map<String, Integer> mostCommonFirstNames = PeopleNameUtil.getMostCommonElements(firstNames, MOST_COMMON_ELEMENTS_SIZE);

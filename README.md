@@ -51,4 +51,4 @@ java -jar target/app.jar
 
 ## Program output
 
-You could find the output of the program in the resources/program-output.txt file
+You can find the output of the program in the resources/program-output.txt file
