@@ -5,19 +5,13 @@ import java.util.Map;
 
 public class Program {
 
-    // Set the path of the text file that contains all the data
-    public static final String PATH_TEXT_FILE = "D:\\dev\\java2\\app\\src\\main\\resources\\coding-test-data.txt";
-
-    // Set the size of the most common first names or last names
-    public static final int MOST_COMMON_ELEMENTS_SIZE = 10;
-
-    // Set the size of the list of modified names
-    public static final int LIST_MODIFIED_NAMES_SIZE = 25;
-
     public static void main(String[] args) {
-        Map<String, Integer> fullNames =  new HashMap<>();
-        Map<String, Integer> lastNames = new HashMap<>();
-        Map<String, Integer> firstNames = new HashMap<>();
+        final Map<String, Integer> fullNames =  new HashMap<>();
+        final Map<String, Integer> lastNames = new HashMap<>();
+        final Map<String, Integer> firstNames = new HashMap<>();
+        final String PATH_TEXT_FILE = ApplicationProperties.INSTANCE.getPathTextFile();
+        final int MOST_COMMON_ELEMENTS_SIZE = Integer.parseInt(ApplicationProperties.INSTANCE.getMostCommonElementsSize());
+        final int LIST_MODIFIED_NAMES_SIZE = Integer.parseInt(ApplicationProperties.INSTANCE.getListModifiedNamesSize());
 
         PeopleNameUtil.getNames(PATH_TEXT_FILE, fullNames, lastNames, firstNames);
 

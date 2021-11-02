@@ -9,20 +9,12 @@ This is a Maven app that implements all requirements of coding challenge.
 
 ## How to set the parameters to test the program
 
-Open the Program.java class and set the following values:
+Open the resources/application.properties file and set the following values:
 
-``` java
-public class Program {
-    // Set the path of the text file that contains all the data
-    public static final String pathTextFile = "D:\\dev\\java2\\app\\src\\main\\resources\\coding-test-data.txt";
-
-    // Set the size of the most common first names or last names
-    public static final int RANKING_SIZE = 10;
-
-    // Set the size of the list of modified names
-    public static final int LIST_MODIFIED_NAMES_SIZE = 25;
-    ...
-}
+``` text
+pathTextFile=D:\\dev\\java2\\app\\src\\main\\resources\\coding-test-data.txt
+mostCommonElementsSize=10
+listModifiedNamesSize=25
 ```
 
 ## How to run the program in a terminal
